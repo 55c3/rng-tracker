@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "rngdisplay",
+  "version": "${version}",
+
+  "name": "RandomDisplayMod",
+  "description": "Display world and entity random values.",
+  "authors": [
+    "55c3"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/channel/UCxB7uh0De7wkzGbbEtuY4hw",
+    "sources": "https://github.com/55c3/rng-trackerd"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/rngdisplay/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fiftyfivec3.rng.RandomDisplayMod"
+    ]
+  },
+
+  "mixins": [
+    "rngdisplay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

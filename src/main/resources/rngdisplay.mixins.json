@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fiftyfivec3.rng.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "WorldRandomMixin", "LivingEntityRandomMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
